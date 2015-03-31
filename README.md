@@ -1,9 +1,11 @@
 # Sentiment-Analysis-on-Vodafone-Tweet-data
 
 Aim:
+
 Analyzing the tweets on Vodafone to classify their tweets into positive, negative, and neutral, in order to help determine their performance in the global market 
 
 Dataset:
+
 The vodafone tweet dataset was obtained using R studio. Libraries like twitteR, sentiment, Rstem, plyr, among others were used to obtain this data. In the tweet data, there are 2000 unprocessed tweets that contain "Vodafone" in them. However to make it easy to evalutate these tweets semantically, the following  preprocessing steps would be taken :-
 
 1. Transforming Text:
