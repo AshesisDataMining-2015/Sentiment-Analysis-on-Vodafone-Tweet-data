@@ -23,12 +23,12 @@ Since I compared Vodafone to other Telcos in Ghana for better assessment, I incl
 Also, in order to make the data more skewed towards the Ghanaian market, I downloaded tweets that had both Ghana and the name of the Telco. For example "vodafone ghana", "mtn ghana". These Ghanaina tweets were replaced with 98 tweets of the           previously downloaded to tweets before processing. 
 
 In each of the tweet data, there were 2000 unprocessed tweets for each of the Telcos that contained the name of the subject Telco in them. However to make it easy to evalutate these tweets semantically, the following  preprocessing steps had to be taken to clean the data. These included:
-  Punctuations
-  Digits
-  Unneccessary whitespaces and tabs
-  Removing retweets
-  HTML links
-  Empty lines
+    Punctuations
+    Digits
+    Unneccessary whitespaces and tabs
+    Removing retweets
+    HTML links
+    Empty lines
   
 
 ###Research Question:
