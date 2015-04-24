@@ -7,12 +7,13 @@ Analyzing the tweets on Vodafone to classify their tweets into positive, negativ
 
 *Dataset:
 The vodafone tweet dataset was obtained using R studio. Libraries like twitteR, sentiment, Rstem, plyr, among others were used to obtain this data. 
-Below are the links to how the packages were obtained:
+Below are the links to how the packages and tweet data were obtained:
 https://mkmanu.wordpress.com/2014/08/05/sentiment-analysis-on-twitter-data-text-analytics-tutorial/
 
 Downloading sentiment package:
 1. Package:  http://cran.r-project.org/src/contrib/Archive/sentiment/
 2. Install using:  install.packages(file_name_and_path, repos = NULL, type="source")
+
 
 Since I compared Vodafone to other Telcos in Ghana for better assessment, I included the dataset for MTN and Tigo. In the project repository, you would find three major datasets:
   Vodafone: vodafone.txt
