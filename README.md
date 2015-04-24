@@ -20,7 +20,7 @@ Since I compared Vodafone to other Telcos in Ghana for better assessment, I incl
   MTN: mtn.txt
   Tigo: tigo.txt
 
-Also, in order to make my data more skewed towards the Ghanaian market, I dowloaded tweets that had both Ghana and the name  of the Telco. For example "vodafone ghana", "mtn ghana". These Ghanaina tweets were replaced with 98 tweets of the           previously downloaded to tweets before processing. 
+Also, in order to make the data more skewed towards the Ghanaian market, I downloaded tweets that had both Ghana and the name of the Telco. For example "vodafone ghana", "mtn ghana". These Ghanaina tweets were replaced with 98 tweets of the           previously downloaded to tweets before processing. 
 
 In each of the tweet data, there were 2000 unprocessed tweets for each of the Telcos that contained the name of the subject Telco in them. However to make it easy to evalutate these tweets semantically, the following  preprocessing steps had to be taken to clean the data. These included:
   Punctuations
@@ -45,6 +45,6 @@ In each of the tweet data, there were 2000 unprocessed tweets for each of the Te
   
   
 *Presentation deck:
-  The slides for my presentation
+  The slides for my presentation is in a file called "Sentiment Analysis on Vodafone tweets.ppx"
 
  
