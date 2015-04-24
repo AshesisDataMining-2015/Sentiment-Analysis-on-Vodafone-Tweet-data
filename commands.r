@@ -23,17 +23,3 @@ v_tweets = searchTwitter("vodafone ghana", n=2000, lang="en")
 #v_tweets = searchTwitter("MTN ghana", n=2000, lang="en")
 #v_tweets = searchTwitter("Tigo ghana", n=2000, lang="en")
 
-v_corpus = sapply(v_tweets, function(x) x$getText())
-# removing retweets from the data
-v_corpus = gsub("(RT|via))((?:\\b\\W*@\\w+)+)","",v_corpus)
-# removing all "@mannies" from  the data
-v_corpus = gsub("@\\w+","",v_corpus)
-#removing all punctuations
-v_corpus = gsub("[[:punct:]]","",v_corpus)
-#removing all digits in the data
-v_corpus = gsub("[[:digit:]]","",v_corpus)
-#removing all html links, that are not needed for sentiment analysis
-v_corpus = gsub("http\\w+","",v_corpus)
-# removing all unneccessary whitespace, tabs
-v_corpus = gsub("[ \t]{2,}","",v_corpus)
-v_corpus = gsub("^\\s+|\\s+$","",v_corpus)
