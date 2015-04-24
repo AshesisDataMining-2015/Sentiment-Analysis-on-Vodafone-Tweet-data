@@ -5,7 +5,7 @@
 Analyzing the tweets on Vodafone to classify their tweets into positive, negative, and neutral, in order to help determine their performance in the global market 
 
 
-##Dataset:
+###Dataset:
 The vodafone tweet dataset was obtained using R studio. Libraries like twitteR, sentiment, Rstem, plyr, among others were used to obtain this data. 
 Below are the links to how the packages and tweet data were obtained:
 https://mkmanu.wordpress.com/2014/08/05/sentiment-analysis-on-twitter-data-text-analytics-tutorial/
@@ -31,20 +31,20 @@ In each of the tweet data, there were 2000 unprocessed tweets for each of the Te
   Empty lines
   
 
-##Research Question:
+###Research Question:
     How do I assess the performanance of Vodafone in the market using the obtained tweets?
 
 
-##Analysis programmed:
+###Analysis programmed:
   -The commands.r file contains the code to extract the tweet data from Twitter. 
   -The main.r file contains the main code to clean the data and classify the tweets.
 
 
-##Presentation graphics:
+###Presentation graphics:
   The graphics/ folder contains the results obtained from this project.
   
   
-##Presentation deck:
+###Presentation deck:
   The slides for my presentation is in a file called "Sentiment Analysis on Vodafone tweets.ppx"
 
  
