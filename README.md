@@ -1,6 +1,6 @@
 # Sentiment-Analysis-on-Vodafone-Tweet-data
 
-##Aim:
+###Aim:
 
 Analyzing the tweets on Vodafone to classify their tweets into positive, negative, and neutral, in order to help determine their performance in the global market 
 
